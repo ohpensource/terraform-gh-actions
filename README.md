@@ -50,7 +50,7 @@ This action performs a [_terraform plan_](https://www.terraform.io/cli/commands/
 - _terraform-folder_: folder where the terraform configuration is.
 - _backend-configuration_: path of the tfvars file with backend configuration.
 - _terraform-var-file_: tfvars file to use as variables input.
-- _terraform-state-file_: File where terraform will write down the plan.
+- _terraform-plan-file_: File where terraform will write down the plan.
 
 ⚠️ Attention! Terraform will try to assume the deployment role in the destination AWS account. Such deployment will fail if the user is not allowed to assume such role.
 
@@ -84,7 +84,7 @@ jobs:
           terraform-folder: "deployment-folder/terraform"
           backend-configuration: "deployment-team-branch-conf/backend.tfvars"
           terraform-var-file: "deployment-team-branch-conf/terraform.tfvars"
-          terraform-state-file: "deployment-team-branch-plan/tfplan"
+          terraform-plan-file: "deployment-team-branch-plan/tfplan"
 ```
 
 ### <a name='apply'></a>apply
