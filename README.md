@@ -3,11 +3,11 @@
 Repository containing Ohpen's Github actions for terrafrom. An easy-to-setup set of scripts and actions to help teams (and everybody that needs it) start working with their repositories and abstract as much cognitive load from them.
 
 - [terraform-gh-actions](#terraform-gh-actions)
-  - [<a name='code-of-conduct'></a>code-of-conduct](#code-of-conduct)
-  - [<a name='terraform'></a>terraform](#terraform)
-    - [<a name='validate'></a>validate](#validate)
-    - [<a name='plan'></a>plan](#plan)
-    - [<a name='apply'></a>apply](#apply)
+  - [code-of-conduct](#code-of-conduct)
+  - [terraform](#terraform)
+    - [validate](#validate)
+    - [plan](#plan)
+    - [apply](#apply)
 
 ## <a name='code-of-conduct'></a>code-of-conduct
 
